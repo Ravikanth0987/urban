@@ -1,0 +1,37 @@
+.access-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f2f2f2;
+}
+
+.access-card {
+  background: white;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+  width: 480px;
+  text-align: center;
+}
+
+.access-buttons {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.access-buttons button {
+  padding: 8px 18px;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+}
+
+.return-btn,
+.login-btn,
+.register-btn {
+  background: #4caf50;
+}

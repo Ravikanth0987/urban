@@ -1,0 +1,58 @@
+.home {
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.logo {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.nav-links a,
+.nav-links li {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.nav-links a:hover {
+  color: lightgray;
+}
+
+/* Center Content */
+.home-content {
+  text-align: center;
+  color: white;
+  margin-top: 150px;
+}
+
+.home-content h1 {
+  font-size: 60px;
+}
+
+.home-content button {
+  margin-top: 10px;
+  padding: 20px 30px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+}

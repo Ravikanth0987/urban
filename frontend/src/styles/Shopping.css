@@ -1,0 +1,48 @@
+.shopping-container {
+  padding: 60px;
+}
+
+.shopping-container h1 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.shopping-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.shopping-card {
+  background: #f5f5f5;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.shopping-card img {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+  margin-bottom: 15px;
+  border-radius: 6px;
+}
+
+.shopping-card h3 {
+  margin-bottom: 10px;
+}
+
+.shopping-card p {
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.shopping-card button {
+  padding: 8px 15px;
+  border: none;
+  background: #ccc;
+  cursor: pointer;
+}
+
+.shopping-card button:hover {
+  background: #999;
+}

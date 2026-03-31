@@ -1,0 +1,11 @@
+.city-details {
+  padding: 60px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.city-details img {
+  width: 100%;
+  border-radius: 12px;
+  margin: 20px 0;
+}
